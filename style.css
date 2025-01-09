@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #dc93a1;
+    display: flex;
+   
+}
+#part1{
+    height: 100%;
+    width: 26%;
+    /*background-color: red;*/
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(34, 155, 225);
+    background-image: url(https://images.unsplash.com/photo-1500917293891-ef795e70e1f6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+#overlay{
+    height:100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+#part3{
+    height: 100%;
+    width: 6%;
+    
+    /*background-color: rgb(39, 213, 109); */
+}
+#text-div{
+    /*height:300px;*/
+    position:absolute;
+    width: 400px;
+    /*background-color: red;*/
+    left: 7%;
+    top:30%;
+    transform:translate(-10);
+}
+#text-div>h1{
+    font-size: 95px;
+    font-family: monument;
+    font-weight: 900;
+    letter-spacing: 8px;
+    line-height: 78px;
+    color: white;
+    text-transform: uppercase;
+}
+#small-img-div{
+    height: 300px;
+    width: 300px;
+    /*background-color:red;*/
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+    background-image: url(https://cdn.pixabay.com/photo/2017/12/22/14/42/girl-3033718_1280.jpg);
+    background-size: cover;
+}
+#verical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right:-50%;
+    transform-origin:0% 0%;
+    top: -1px;
+    width: 100%;
+    /*background-color: red;*/
+}
+#selet{
+    font-size: 75px;
+    font-weight: 800;
+    font-family: monument;
+    letter-spacing: 3px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+    color: transparent;
+}
+#nav{
+    position: absolute;
+    width: 250px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 5%;
+    top: 5%;
+}
+#nav img{
+    height: 60px;
+}
+#nav h5{
+    font-size: 20px;
+    font-family: gilgoy;
+    background-color: #fff;
+}
